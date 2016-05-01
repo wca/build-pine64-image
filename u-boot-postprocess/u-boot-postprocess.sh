@@ -12,12 +12,12 @@ set -e
 # Blobs as provided in the BSP
 BLOBS="../blobs"
 # https://github.com/longsleep/u-boot-pine64/tree/pine64-hacks
-UBOOT="../u-boot-pine64"
+UBOOT="../../u-boot-pine64"
 # https://github.com/longsleep/arm-trusted-firmware-pine64
-TRUSTED_FIRMWARE="../arm-trusted-firmware-pine64"
+TRUSTED_FIRMWARE="../../arm-trusted-firmware-pine64"
 TRUSTED_FIRMWARE_BUILD="release"
 # https://github.com/longsleep/sunxi-pack-tools
-SUNXI_PACK_TOOLS="../sunxi-pack-tools/bin"
+SUNXI_PACK_TOOLS="../../sunxi-pack-tools/bin"
 
 BUILD="../build"
 mkdir -p $BUILD
